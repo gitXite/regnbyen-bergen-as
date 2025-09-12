@@ -3,11 +3,25 @@ body {
     flex-direction: column;
     overflow-x: hidden;
     max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
 }
 
 header {
     display: flex;
-    height: 10rem;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    height: 5rem;
+    width: 100%;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
 }
 
 main {
@@ -22,11 +36,22 @@ section {
 
 .hero {
     height: 100vh;
-    background-image: url(./images/background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+.hero img {
+    object-fit: cover;
+    width: 100%;
 }
 
 footer {
     display: flex;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
