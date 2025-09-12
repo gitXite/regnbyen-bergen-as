@@ -1,3 +1,6 @@
+html {
+    box-sizing: border-box;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -6,7 +9,6 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    box-sizing: border-box;
 }
 
 header {
@@ -16,12 +18,15 @@ header {
     position: fixed;
     height: 5rem;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
 }
 header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 50%;
+    font-size: x-large;
 }
 
 main {
@@ -32,12 +37,21 @@ main {
 section {
     max-height: 100vh;
     width: 100%;
+    bottom: 2rem;
 }
 
 .hero {
-    height: 100vh;
+    max-height: 100vh;
 }
 .hero img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.placeholder {
+    max-height: 100vh;
+}
+.placeholder img {
     object-fit: cover;
     width: 100%;
 }
@@ -46,11 +60,11 @@ footer {
     display: flex;
 }
 
+
 img {
     margin: 0;
     padding: 0;
 }
-
 a {
     color: white;
     text-decoration: none;
