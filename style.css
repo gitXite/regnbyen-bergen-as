@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  height: 5rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: x-large;
+}
+header nav a {
+  color: white;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+section {
+  max-height: 100vh;
+  width: 100%;
+  bottom: 2rem;
+}
+
+.hero {
+  max-height: 100vh;
+}
+.hero img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.placeholder {
+  max-height: 100vh;
+}
+.placeholder img {
+  object-fit: cover;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+
+.reklame_bilder {
+  width: 200px;
+  height: 200px;
+}
