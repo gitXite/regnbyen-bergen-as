@@ -69,3 +69,34 @@ a {
     color: white;
     text-decoration: none;
 }
+
+
+
+.omOss {
+  display: flex;            
+  justify-content: space-between; 
+  align-items: flex-start;      
+  height: 100px;
+  background: lightgray;
+}
+
+.visjon2 {
+   display: flex;
+ justify-content: space-evenly;
+ height: 800px; ;
+ align-items: start;
+  
+}
+.visjon1 {
+ display: flex;
+ justify-content: space-evenly;
+ height: 100px;
+ align-items: flex-start;
+}
+    
+
+
+h2{
+    display: flex;
+    text-align: center;
+}
