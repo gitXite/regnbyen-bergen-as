@@ -1,32 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Regnbyen Bergen A/S</title>
-</head>
-<body>
+  </head>
+  <body class="homepage-body">
     <header>
-        <nav>
-            <a href="./pages/omOss.html">Om Oss</a>
-            <p>Regnbyen Bergen A/S <img src="" alt="Logo"></p>
-            <a href="./pages/kontakt.html">Kontakt Oss</a>
-        </nav>
+      <nav>
+        <a href="./index.html">Hjem</a>
+        <a href="pages/omprojekt.html">Info</a>
+        <a href="pages/omoss.html">Om oss</a>
+        <img src="images/logo" alt="Regnbyen Bergen AS logo" />
+      </nav>
     </header>
-    <main>
-        <section class="hero">
-            <img src="./images/background.png" alt="Bakgrunn">
-        </section>
-        <section class="placeholder">
-            <img src="./images/folk-rovere.png" alt="Bakgrunn">
-        </section>
-        <section>
+    <main class="homepage-main">
+      <div class="homepage-background">
+        <div class="homepage-topp-text">
+          <h1 style="margin: 0">Velkommen til Regnbyen Bergen A/S</h1>
+          <p style="margin: 8px 0 0 0">
+            Innovative løsninger for et smartere og mer bærekraftig Bergen
+          </p>
+        </div>
+      </div>
 
-        </section>
+      <div class="info-boxes">
+        <a href="pages/regnveer.html" class="info-box-link">
+          <div class="info-box-content">
+            <p>Regn info</p>
+          </div>
+        </a>
+        <a href="pages/temp.html" class="info-box-link">
+          <div class="info-box-content">
+            <p>Bor du her!</p>
+          </div>
+        </a>
+        <a href="pages/reklame.html" class="info-box-link">
+          <div class="info-box-content">
+            <p>Våre anbefalte produkter</p>
+          </div>
+        </a>
+      </div>
     </main>
     <footer>
-        
+      <nav>
+        <a href="pages/kontakt.html">Kontakt oss</a>
+        <img src="images/logo" alt="Regnbyen Bergen AS logo" />
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
