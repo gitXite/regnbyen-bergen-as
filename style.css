@@ -145,3 +145,15 @@ footer nav a {
   width: 200px;
   height: 200px;
 }
+.name-box{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding-left: 9%;
+}
+.desc-box{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding-left: 1%;
+}
