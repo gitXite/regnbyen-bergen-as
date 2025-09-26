@@ -190,3 +190,73 @@ footer nav a {
   justify-content: space-evenly;
   padding-left: 1%;
 }
+
+.regnveer-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.regnveer-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.regnveer-map-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.regnveer-info-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Bergen-kart {
+  height: 400px;
+  width: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.info-box-content-regnveer {
+  display: block;
+  width: 130px;
+  height: 120px;
+  width: 100%;
+  color: white;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.info-box-link-regnveer {
+  display: block;
+  width: 130px;
+  height: 120px;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  background: #708993;
+}
+
+.topp-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100xp;
+}
