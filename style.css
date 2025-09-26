@@ -256,7 +256,13 @@ footer nav a {
 
 .topp-box {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100xp;
+  justify-content: left;
+  align-items: left;
+  height: 100px;
+  border: 2px;
+  border-radius: 6px;
+  background-color: #708993;
+  margin: 1rem auto;
+  width: 90%;
+  padding: 0 2rem;
 }
